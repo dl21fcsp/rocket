@@ -1,3 +1,14 @@
 body {
-	background-color: grey;
+	background-color: lightblue;
+}
+
+.cool{
+	width: 100px;
+	height: 100px;
+	background-color: lime;
+	transition: background-color 1s;
+}
+
+.cool.red{
+	background-color: red;
 }

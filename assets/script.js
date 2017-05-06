@@ -26,3 +26,13 @@ var car  = {
 var sayMyName = function(name){
 	alert('My Name is:' + name);
 };		
+
+var doCoolStuff = function(){
+	var currentClassName = document.getElementById('cool').className;
+
+	if(currentClassName == 'cool'){
+	document.getElementById('cool').className = 'cool red';	
+} else {
+	document.getElementById('cool').className = 'cool';
+};
+};
